@@ -1,0 +1,366 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(33, 49, 68);
+    padding: 20px 30px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+    grid-template-rows: repeat(4, 50px);
+    gap: 20px;
+    padding-top: 20px;
+}
+ 
+
+.clear {
+    height: 45px;
+    width: 80px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15pt;
+    color: white;
+    background-color: gray;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
+
+.clear:hover {
+    opacity: 0.9;
+}
+
+.clear:active {
+    background-color: rgba(150, 150, 150, 0.952);
+}
+
+input {
+    height: 50px;
+    width: 35vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(85, 72, 110);
+    color: white;
+    padding-left: 20px;
+}
+
+span {
+    background-color: gray;
+    height: 55px;
+    width: 65px;
+    border-radius: 5px;
+}
+
+.equalto {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: white;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+ 
+.equalto:hover {
+    background-color: rgb(247, 32, 32);
+}
+
+.container2 button:active {
+    height: 52px;
+}
+
+.number1 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number1:hover {
+    background-color: rgb(243, 243, 243);
+}
+ 
+.number2 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number2:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number3 { 
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number3:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.add {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.add:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number4 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number4:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number5 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number5:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number6 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number6:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.multiply {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.multiply:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number7 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number7:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number8 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number8:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number9 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number9:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.substract {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.substract:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.number10 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.number10:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.fullstop {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.fullstop:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+.divide {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 13pt;
+    color: gray;
+    height: 50px;
+    width: 65px;
+    transition: all 0.2s;
+}
+
+.divide:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+
+@media(max-width:600px){
+    .clear {
+        width: 70px;
+    }
+
+    input {
+        width: 27vh;
+        font-size: 15pt;
+    }
+}

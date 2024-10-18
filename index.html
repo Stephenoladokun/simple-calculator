@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display-container">
+            <input id="display" type="text" disabled>
+            <button class="clear" onclick="cleardisplay()">AC</button>
+        </div>
+
+        <div class="container2">
+            <span><button class="number1" onclick="characters('1')">1</button></span>
+            <span><button class="number2" onclick="characters('2')">2</button></span>
+            <span><button class="number3" onclick="characters('3')">3</button></span>
+
+            <span><button class="add" onclick="characters('+')">+</button></span>
+            <span><button class="number4" onclick="characters('4')">4</button></span>
+            <span><button class="number5" onclick="characters('5')">5</button></span>
+
+            <span><button class="number6" onclick="characters('6')">6</button></span>
+            <span><button class="multiply" onclick="characters('*')">x</button></span>
+            <span><button class="number7" onclick="characters('7')">7</button></span>
+
+            <span><button class="number8" onclick="characters('8')">8</button></span>
+            <span><button class="number9" onclick="characters('9')">9</button></span>
+            <span><button class="substract" onclick="characters('-')">-</button></span>
+            <span><button class="number10" onclick="characters('0')">0</button></span>
+            
+
+            <span><button class="fullstop" onclick="characters('.')">.</button></span>
+            <span><button class="equalto" onclick="answer()">=</button></span>
+            <span><button class="divide" onclick="characters('/')">%</button></span>
+
+            
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
